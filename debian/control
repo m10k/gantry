@@ -1,0 +1,15 @@
+Source: gantry
+Priority: optional
+Maintainer: Matthias Kruk <m@m10k.eu>
+Build-Depends: debhelper (>= 9), make, coreutils
+Standards-Version: 3.9.8
+Section: shells
+Homepage: https://github.com/m10k/gantry
+
+Package: gantry
+Section: shells
+Architecture: all
+Depends: bash (>= 4.0), toolbox, coreutils, findutils, grep, sed, docker.io, dnf, ${misc:Depends}
+Description: Docker image generator for dnf-based distributions
+ Automates the docker image generation of dnf-based Linux distributions
+ and pushes generated images to Docker Hub.
