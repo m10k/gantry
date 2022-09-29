@@ -1,0 +1,13 @@
+[stuffer-9-BaseOS]
+name=stuffer-9-BaseOS
+baseurl=file:///media/cdrom/BaseOS
+enabled=1
+gpgcheck=1
+gpgkey=file:///media/cdrom/RPM-GPG-KEY
+
+[stuffer-9-AppStream]
+name=stuffer-9-AppStream
+baseurl=file:///media/cdrom/AppStream
+enabled=1
+gpgcheck=1
+gpgkey=file:///media/cdrom/RPM-GPG-KEY

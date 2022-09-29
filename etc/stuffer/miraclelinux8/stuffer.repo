@@ -1,0 +1,13 @@
+[stuffer-8-latest-BaseOS]
+name=stuffer-8-latest-BaseOS
+mirrorlist=https://repo.dist.miraclelinux.net/miraclelinux/mirrorlist/8-latest/$basearch/baseos
+enabled=1
+gpgcheck=1
+gpgkey=https://repo.dist.miraclelinux.net/miraclelinux/8.4-released/RPM-GPG-KEY
+
+[stuffer-8-latest-AppStream]
+name=stuffer-8-latest-AppStream
+mirrorlist=https://repo.dist.miraclelinux.net/miraclelinux/mirrorlist/8-latest/$basearch/appstream
+enabled=1
+gpgcheck=1
+gpgkey=https://repo.dist.miraclelinux.net/miraclelinux/8.4-released/RPM-GPG-KEY
