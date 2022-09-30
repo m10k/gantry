@@ -297,7 +297,7 @@ generate_docker_image() {
 			err=1
 		fi
 
-		if ! docker run -i -t --rm "$name:$version" /usr/bin/true; then
+		if ! docker run --rm "$name:$version" /usr/bin/true; then
 			log_error "Generated image could not be started"
 			err=1
 		fi
