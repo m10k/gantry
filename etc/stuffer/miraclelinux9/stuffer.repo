@@ -3,12 +3,11 @@ name=stuffer-9-BaseOS
 mirrorlist=https://repo.dist.miraclelinux.net/miraclelinux/mirrorlist/9-latest/x86_64/baseos
 enabled=1
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY
-
+gpgkey=https://repo.dist.miraclelinux.net/miraclelinux/9-latest/RPM-GPG-KEY
 
 [stuffer-9-AppStream]
 name=stuffer-9-AppStream
 mirrorlist=https://repo.dist.miraclelinux.net/miraclelinux/mirrorlist/9-latest/x86_64/appstream
 enabled=1
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY
+gpgkey=https://repo.dist.miraclelinux.net/miraclelinux/9-latest/RPM-GPG-KEY
