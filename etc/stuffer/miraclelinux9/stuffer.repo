@@ -1,13 +1,14 @@
 [stuffer-9-BaseOS]
 name=stuffer-9-BaseOS
-baseurl=file:///media/cdrom/BaseOS
+mirrorlist=https://repo.dist.miraclelinux.net/miraclelinux/mirrorlist/9-latest/x86_64/baseos
 enabled=1
 gpgcheck=1
-gpgkey=file:///media/cdrom/RPM-GPG-KEY
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY
+
 
 [stuffer-9-AppStream]
 name=stuffer-9-AppStream
-baseurl=file:///media/cdrom/AppStream
+mirrorlist=https://repo.dist.miraclelinux.net/miraclelinux/mirrorlist/9-latest/x86_64/appstream
 enabled=1
 gpgcheck=1
-gpgkey=file:///media/cdrom/RPM-GPG-KEY
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY
