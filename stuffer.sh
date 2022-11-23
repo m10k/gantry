@@ -32,7 +32,7 @@ _add_selection() {
 		"package")
 			packages+=("$value")
 			;;
-		"value")
+		"group")
 			groups+=("$value")
 			;;
 		*)
