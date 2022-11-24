@@ -1,0 +1,15 @@
+[stuffer-baseos]
+name=Rocky Linux 9 - BaseOS
+mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=BaseOS-9
+gpgcheck=1
+enabled=1
+metadata_expire=6h
+gpgkey=http://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9
+
+[stuffer-appstream]
+name=Rocky Linux 9 - AppStream
+mirrorlist=https://mirrors.rockylinux.org/mirrorlist?arch=$basearch&repo=AppStream-9
+gpgcheck=1
+enabled=1
+metadata_expire=6h
+gpgkey=http://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9
