@@ -1,0 +1,15 @@
+[stuffer-9-BaseOS]
+name=stuffer-9-BaseOS
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/9/baseos
+enabled=1
+gpgcheck=1
+countme=0
+gpgkey=https://repo.almalinux.org/almalinux/9/BaseOS/x86_64/os/RPM-GPG-KEY-AlmaLinux-9
+
+[stuffer-9-AppStream]
+name=stuffer-9-AppStream
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/9/appstream
+enabled=1
+gpgcheck=1
+countme=0
+gpgkey=https://repo.almalinux.org/almalinux/9/AppStream/x86_64/os/RPM-GPG-KEY-AlmaLinux-9
